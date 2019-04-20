@@ -1,0 +1,33 @@
+{
+  "name": "MapProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "xcode": "cd ios && open MapProject.xcworkspace",
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "@mapbox/react-native-mapbox-gl": "^6.1.3",
+    "mapbox": "^1.0.0-beta10",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "react": "16.8.3",
+    "react-native": "0.59.4",
+    "react-native-google-places-autocomplete": "^1.3.9",
+    "turf": "^3.0.14",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-decorators": "^7.4.0",
+    "@babel/runtime": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
